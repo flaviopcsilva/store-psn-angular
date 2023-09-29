@@ -1,6 +1,6 @@
 .card-label__container {
     position: absolute;
-    bottom: 90px;
+    bottom: 150px;
     right: 0;
 }
 
@@ -19,4 +19,20 @@
 
 .card-label__content p {
     color: white;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .card-label__container {
+        bottom: 60px;
+    }
+
+    .card-label__content {
+        font-size: 10px;
+        height: 25px;
+        padding: 0px 3px;
+    }
+
 }

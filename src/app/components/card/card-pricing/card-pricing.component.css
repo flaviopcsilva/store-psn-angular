@@ -37,3 +37,14 @@
     color: aqua;
     margin-right: 2px;
 }
+
+/* Estilo para dispositivos móveis com tela menor que 768px */
+@media (max-width: 768px) {
+
+    /* Suas regras de estilo para dispositivos móveis aqui */
+    .card-pricing__container {
+        height: 41px;
+        font-size: 12px;
+        padding: 3px;
+    }
+}
