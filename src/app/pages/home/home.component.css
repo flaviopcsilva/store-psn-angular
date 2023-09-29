@@ -1,0 +1,27 @@
+.home__container {
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+
+}
+
+/* Estilo para dispositivos móveis com tela menor que 768px */
+@media (max-width: 768px) {
+
+    /* Suas regras de estilo para dispositivos móveis aqui */
+    .home__container {
+        width: 102%;
+        margin: auto;
+        padding: 41px;
+        display: flex;
+
+        justify-content: space-around;
+        align-items: baseline;
+        flex-wrap: wrap;
+    }
+}
