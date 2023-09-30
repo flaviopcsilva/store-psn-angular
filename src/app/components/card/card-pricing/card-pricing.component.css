@@ -44,7 +44,7 @@
     /* Suas regras de estilo para dispositivos móveis aqui */
     .card-pricing__container {
         height: 41px;
-        font-size: 8px;
-        padding: 2px;
+        font-size: 9px;
+        padding: 3px;
     }
 }
